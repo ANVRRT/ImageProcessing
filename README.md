@@ -2,6 +2,12 @@
 ## Introducción
 ## Intención
 ## Modo de Trabajo e Integrantes
+Los integrantes del equipo 4 son:
+Marco Antonio Almazán Martínez A01769046
+Ángel Nolasco Serrano A01365726
+Alberto Navarrete Ramírez A01422954
+
+El modo de trabajo fue totalmente virtual haciendo uso de reuniones en zoom y de github para el control de versiones en el código. Por otro lado, la división del trabajo fue equitativa, ya que cada miembro del equipo realizó un kernel para aplicar los filtros correspondientes a cada imagen.
 ## Descripción del Entregable
 ## ¿Qué es Convolución y su Descripción?
 ## ¿Qué es Kernel y su Descripción?
