@@ -1,7 +1,7 @@
 # Procesamiento de Imágenes
 ## Introducción
 ## Intención
-## Modo de Trabajo
+## Modo de Trabajo e Integrantes
 ## Entregable
 ### ¿Qué es Convolución y su Descripción?
 ### ¿Qué es Kernel y su Descripción?
