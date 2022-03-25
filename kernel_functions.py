@@ -57,3 +57,16 @@ def laplace_sharpen2(kernel_size):
     M[kernel_size//2 - 1][kernel_size//2 + 1] = 0
     M[kernel_size//2 - 1][kernel_size//2 - 1] = -1
     return M
+
+#Función hecha por Angel Nolasco
+#La funcion mexican_hat recibe como parametros el valor de sigma y el tamaño del kernel.
+def mexican_hat(sigma, kernel_size):
+    #numpy.zeros inicializa la variable M, la cual representa la matriz
+    M = numpy.zeros((kernel_size,kernel_size))
+    for x in range(-(kernel_size//2),kernel_size//2 + 1):
+        for y in range(-(kernel_size//2),kernel_size//2 + 1):
+            M[x][y] = (
+                        1/(math.pi*math.pow(sigma,4)))*(1-0.5
+                        *(math.pow(x,2)+math.pow(y,2)/(math.pow(sigma,2))))*math.exp(-((math.pow(x,2))+(math.pow(y,2)))/(2
+                        *(math.pow(sigma,2))))
+    return M
