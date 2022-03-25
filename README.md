@@ -45,6 +45,10 @@ Finalmente, al realizar dicho efecto en python con la función previamente menci
 ### Ricker Wavelet (Mexican Hat)
 Ondícula de fase cero, la segunda derivada de la función gaussiana o la tercera derivada de la función de densidad de probabilidad normal. La ondícula de Ricker se utiliza a menudo en modelado y fabricación de sismogramas sintéticos. Tiene adaptaciones y usos para 2D y 3D. En términos de procesamiento de imagen, puede ser utilizada para técnicas de "feature point detection", "local area detection", etcétera
 
+#### Imágenes con Filtro Aplicado
+![image](https://user-images.githubusercontent.com/58310509/160156952-9f7dad93-eeeb-491d-8326-b64fc3e99060.png)
+
+
 ### Sharpen Function 
 Esta función tiene como propóstio el encontrar diversas pareas en el cual cambiaron las imagenes de una manera rápida gracias a sus filtros de ruido los cuales presentan una sensibilidad alta.
 
