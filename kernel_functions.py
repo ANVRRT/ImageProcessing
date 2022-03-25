@@ -4,6 +4,8 @@ import math
 from PIL import Image
 from scipy import ndimage
 
+
+# Functions made by Alberto Navarrete
 def laplace_sharpen(kernel_size):
     M = numpy.zeros((kernel_size,kernel_size))
     M[kernel_size//2][kernel_size//2] = 8
