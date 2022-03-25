@@ -1,6 +1,5 @@
 # Procesamiento de Imágenes
 ## Introducción
-## Intención
 Este repositorio denominado como ImageProcessing, tiene como proposito el poder incorporar diversos conceptos relacionados con Visión Computacional por medio de Python integrando lo aprendido en la unidad de formación de nombre "Herramientas computacionales: el arte de la programación (Gpo 100)" con clave "TC1001S.100" con el equipo asignado en la misma unidad de formación.
 Esto se realizó utilizando el lenguaje de programación python, así como la herramientas Git y Github para control de versiones.
 ## Modo de Trabajo e Integrantes
