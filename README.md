@@ -9,6 +9,8 @@ En este entregable podemos observar distintas integraciones de Modelos de Machin
     - Gaussian Blur (Desenfoque Gaussiano)
     - Ricker Wavelet (Mexican Hat)
     - Shaarpen Function (Laplace)
+
+Para poder demostrar la aplicación de estos modelos de procesamiento de imagenes, se utilizaron distintas librerias dentro de python como: Pillow, scipy, matplotlib, numpy y math; las cuales son librerias relacionadas con matemáticas y manipulación de matrices.
 ### ¿Qué es Convolución y su Descripción?
 ### ¿Qué es Kernel y su Descripción?
 ### Funciones de Kernel utilizadas
