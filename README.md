@@ -2,6 +2,7 @@
 ## Introducción
 ## Intención
 Este repositorio denominado como ImageProcessing, tiene como proposito el poder incorporar diversos conceptos relacionados con Visión Computacional por medio de Python integrando lo aprendido en la unidad de formación de nombre "Herramientas computacionales: el arte de la programación (Gpo 100)" con clave "TC1001S.100" con el equipo asignado en la misma unidad de formación.
+Esto se realizó utilizando el lenguaje de programación python, así como la herramientas Git y Github para control de versiones.
 ## Modo de Trabajo e Integrantes
 Los integrantes del equipo 4 son:
 #### Marco Antonio Almazán Martínez A01769046
@@ -18,6 +19,8 @@ En este entregable podemos observar distintas integraciones de Modelos de Machin
 
 Para poder demostrar la aplicación de estos modelos de procesamiento de imagenes, se utilizaron distintas librerias dentro de python como: Pillow, scipy, matplotlib, numpy y math; las cuales son librerias relacionadas con matemáticas y manipulación de matrices.
 ## ¿Qué es Convolución y su Descripción?
+En imágenes, se le conoce como convolución al tratamiento de una matríz por otra. La imagen es representada por una matríz, al igual que
+el kernel a utilizar. Normalmente se utiliza en procesamiento de imágenes para la aplicación de filtros y efectos visuales 
 ## ¿Qué es Kernel y su Descripción?
 En el procesamiento de imágenes un concepto muy utilizado es el de "Kernel", este significa núcleo más especificamente podemos describir al "Kernel" como una matriz de valores que es usada para el desenfoque, enfoque, realce, detección de bordes, entre otros filtros que se aplican en las imágenes. Esto se logra realizando la convolución, la cuál previamente definimos, esta convolución es entre el kernel y la imagen, logrando así aplicar los filtros previamente mencionados.
 ## ¿Qué es Padding y su descripción?
