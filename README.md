@@ -45,3 +45,6 @@ Finalmente, al realizar dicho efecto en python con la función previamente menci
 ### Ricker Wavelet (Mexican Hat)
 ### Sharpen Function 
 Esta función tiene como propóstio el encontrar diversas pareas en el cual cambiaron las imagenes de una manera rápida gracias a sus filtros de ruido los cuales presentan una sensibilidad alta.
+
+#### Imágenes con Filtro Aplicado
+![image](https://user-images.githubusercontent.com/58310509/160154670-e6f01707-f02c-40a7-ad3a-2add9c11edcd.png)
