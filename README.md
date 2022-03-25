@@ -1,6 +1,5 @@
 # Procesamiento de Imágenes
 ## Introducción
-## Intención
 Este repositorio denominado como ImageProcessing, tiene como proposito el poder incorporar diversos conceptos relacionados con Visión Computacional por medio de Python integrando lo aprendido en la unidad de formación de nombre "Herramientas computacionales: el arte de la programación (Gpo 100)" con clave "TC1001S.100" con el equipo asignado en la misma unidad de formación.
 Esto se realizó utilizando el lenguaje de programación python, así como la herramientas Git y Github para control de versiones.
 ## Modo de Trabajo e Integrantes
@@ -44,8 +43,18 @@ Finalmente, al realizar dicho efecto en python con la función previamente menci
 
 ### Ricker Wavelet (Mexican Hat)
 Ondícula de fase cero, la segunda derivada de la función gaussiana o la tercera derivada de la función de densidad de probabilidad normal. La ondícula de Ricker se utiliza a menudo en modelado y fabricación de sismogramas sintéticos. Tiene adaptaciones y usos para 2D y 3D. En términos de procesamiento de imagen, puede ser utilizada para técnicas de "feature point detection", "local area detection", etcétera
+
+#### Imágenes con Filtro Aplicado
+![image](https://user-images.githubusercontent.com/57366623/160157221-f449e136-cd83-49fa-b8da-20b1f3e93709.png)
+![image](https://user-images.githubusercontent.com/57366623/160157282-3ddb8396-ef95-431d-828f-2563d3941ba3.png)
+
 ### Sharpen Function 
 Esta función tiene como propóstio el encontrar diversas pareas en el cual cambiaron las imagenes de una manera rápida gracias a sus filtros de ruido los cuales presentan una sensibilidad alta.
+
+#### Ejemplo de matriz utilizada
+![image](https://user-images.githubusercontent.com/58310509/160156719-b385a0b6-00d6-41dd-a9a1-483bbaacecd7.png)
+![image](https://user-images.githubusercontent.com/58310509/160156597-33cdb703-6a2d-4ddd-bab4-cdd164e32f0b.png)
+
 
 #### Imágenes con Filtro Aplicado
 ![image](https://user-images.githubusercontent.com/58310509/160154670-e6f01707-f02c-40a7-ad3a-2add9c11edcd.png)
