@@ -39,6 +39,8 @@ Finalmente, al realizar dicho efecto en python con la función previamente menci
 ![dogs](https://user-images.githubusercontent.com/57366623/160148765-ab0e3b9c-792a-44a2-a149-b27be12cdd17.png)
 
 #### Imágenes con Filtro Aplicado
+![image](https://user-images.githubusercontent.com/57366623/160152844-a1989c64-5b6c-44b4-8a24-3f0c56b6c993.png)
+![image](https://user-images.githubusercontent.com/57366623/160152986-02dc293d-7a62-411d-9913-0ba17bd75976.png)
 
 ### Ricker Wavelet (Mexican Hat)
 ### Sharpen Function 
