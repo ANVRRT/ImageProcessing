@@ -4,8 +4,34 @@ import math
 from PIL import Image
 from scipy import ndimage
 
+# Funcion hecha por Marco Almazan
+# La funcion gaussian_blur recibe como parametros el valor de sigma y el tamaño del rango que tendremos para la matriz.
+# Finalmente, regresa la matriz con los valores calculados por la funcion.
+def gaussian_blur(sigma, size):
+    # Se declara una matriz de zeros del tamaño indicado.
+    matrix = numpy.zeros((size,size))
+    # Ciclos for para llenar la matriz de valores.
+    for x in range(-(size//2), size//2 + 1):
+        for y in range(-(size//2), size//2 + 1):
+            # Se calculan los valores de la matriz mediante la funcion descrita en el readme.
+            matrix[x][y] = (
+                            0.5
+                            *math.pi*(math.pow(sigma,2))
+                            *math.exp(
+                                -(
+                                    (math.pow(x,2))
+                                    +(math.pow(y,2))
+                                )
+                                /(
+                                    2
+                                    *(math.pow(sigma,2))
+                                )
+                                )
+                            )
+    # Se regresa la matriz con los valores del kernel para poder aplicar el efecto.
+    return matrix
 
-# Functions made by Alberto Navarrete
+# Funcion hecha por Alberto Navarrete
 def laplace_sharpen(kernel_size):
     M = numpy.zeros((kernel_size,kernel_size))
     M[kernel_size//2][kernel_size//2] = 8
