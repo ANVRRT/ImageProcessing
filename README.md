@@ -34,5 +34,6 @@ El desenfoque gaussiano o gaussian blur consiste en la aplicación de una funci�
 
 Finalmente, al realizar dicho efecto en python con la función previamente mencionada se obtiene el siguiente resultado, teniendo en cuenta una sigma con valor de 9 y un rango de valores para "x" y "y" desde -4 hasta 4. A continuación, se muestra la imagen original y la imagen con el filtro aplicado para ver las diferencias. 
 ### Ricker Wavelet (Mexican Hat)
+Ondícula de fase cero, la segunda derivada de la función gaussiana o la tercera derivada de la función de densidad de probabilidad normal. La ondícula de Ricker se utiliza a menudo en modelado y fabricación de sismogramas sintéticos. Tiene adaptaciones y usos para 2D y 3D. En términos de procesamiento de imagen, puede ser utilizada para técnicas de "feature point detection", "local area detection", etcétera
 ### Sharpen Function 
 Esta función tiene como propóstio el encontrar diversas pareas en el cual cambiaron las imagenes de una manera rápida gracias a sus filtros de ruido los cuales presentan una sensibilidad alta.
