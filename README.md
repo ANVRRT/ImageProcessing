@@ -29,7 +29,14 @@ El desenfoque gaussiano o gaussian blur consiste en la aplicación de una funci�
 
                                   G(x,y) = (0.5 * (pi * sigma^2)) * exp(-(x^2 + y^2) / (2*sigma^2))
 
-Finalmente, al realizar dicho efecto en python con la función previamente mencionada se obtiene el siguiente resultado, teniendo en cuenta una sigma con valor de 9 y un rango de valores para "x" y "y" desde -4 hasta 4. A continuación, se muestra la imagen original y la imagen con el filtro aplicado para ver las diferencias. 
+Finalmente, al realizar dicho efecto en python con la función previamente mencionada se obtiene el siguiente resultado, teniendo en cuenta una sigma con valor de 9 y un rango de valores para "x" y "y" desde -4 hasta 4. A continuación, se muestran la imágenes originales y la imágenes con el filtro aplicado para ver las diferencias.
+
+#### Imágenes Originales
+![sudoku](https://user-images.githubusercontent.com/57366623/160148671-61c91105-3d51-4586-8344-f7ba226baaed.jpg) 
+![dogs](https://user-images.githubusercontent.com/57366623/160148765-ab0e3b9c-792a-44a2-a149-b27be12cdd17.png)
+
+## Imágenes con Filtro Aplicado
+
 ### Ricker Wavelet (Mexican Hat)
 ### Sharpen Function 
 Esta función tiene como propóstio el encontrar diversas pareas en el cual cambiaron las imagenes de una manera rápida gracias a sus filtros de ruido los cuales presentan una sensibilidad alta.
