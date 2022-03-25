@@ -17,3 +17,4 @@ Para poder demostrar la aplicación de estos modelos de procesamiento de imagene
 ### Gaussian Blur (Desenfoque Gaussiano)
 ### Ricker Wavelet (Mexican Hat)
 ### Sharpen Function 
+Esta función tiene como propóstio el encontrar diversas pareas en el cual cambiaron las imagenes de una manera rápida gracias a sus filtros de ruido los cuales presentan una sensibilidad alta.
